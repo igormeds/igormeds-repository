@@ -1,0 +1,10 @@
+while True:
+    numero = input("Digite um número: ")
+    if numero.lower() == "sair":
+        print("Sistema finalizado!")
+        break
+    num = int(numero)
+    if num % 2 == 0:
+        print(f"{num} é par!")
+    else:
+        print(f"{num} é ímpar!")
